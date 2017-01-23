@@ -1436,7 +1436,7 @@
                         }
                     },
                     theme: {
-                        logo: 'public/img/logo/logo.png',
+                        logo: 'https://s30.postimg.org/bjitmolm9/logo.png',
                         primaryColor: 'rgb(0,161,191)'
                     },
                     language: 'es',
@@ -1444,8 +1444,38 @@
                         emailInputPlaceholder: "ejemplo@tuemail.com",
                         emailPasswordPlaceholder: "tu contraseña",
                         title: ""
-                    }
-                })
+                    },
+                    additionalSignUpFields: [{
+                        name: "nombre",
+                        placeholder: "Nombre completo",
+                        // The following properties are optional
+                        //icon: "https://example.com/assests/address_icon.png",
+                        //prefill: "street 123",
+                        validator: function(nombre) {
+                            return {
+                                valid: nombre.length >= 10,
+                                hint: "Debe de tener más de 10 caracteres" // optional
+                            };
+                        }
+                    },
+                    {
+                        name: "edad",
+                        placeholder: "Edad"
+                    },
+                        {
+                            type: "select",
+                            name: "curso",
+                            placeholder: "Selecciona tu curso",
+                            options: [
+                                {value: "PB", label: "Programación Básica"},
+                                {value: "MEAN", label: "Curso MEAN Stack"},
+                                {value: "3D", label: "Modelado 3D"},
+                                {value: "AD", label: "Modelado 3D"},
+                                {value: "UNITY", label: "Desarrollo de Videojuegos"}
+                            ]
+                        }
+                    ]
+                });
 
                 $('.btn-login').click(function(e) {
                     e.preventDefault()
