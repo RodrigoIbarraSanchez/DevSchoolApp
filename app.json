@@ -1,0 +1,27 @@
+{
+  "name": "Sitio web default para Heroku",
+  "description": "Sitio web default para Heroku",
+  "success_url": "/",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "scripts": {
+    "postdeploy": "echo 'restarting'"
+  },
+  "env": {
+    "THRIFTY": {
+      "description": "run on a single (free) dyno",
+      "value": "true"
+    },
+    "CONCURRENCY": {
+      "description": "level of concurrency for web processes",
+      "value": "1"
+    },
+    "WORKER_CONCURRENCY": {
+      "description": "level of concurrency for worker processes",
+      "value": "1"
+    },
+    "COOKIE_SECRET": {
+      "description": "a secret key for signed cookies",
+      "generator": "secret"
+    }
+  }
+}

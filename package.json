@@ -1,0 +1,25 @@
+{
+  "name": "default-heroku",
+  "version": "0.0.0",
+  "description": "Default para Heroku",
+  "main": "src/web.js",
+  "license": "copyright",
+  "private": true,
+  "scripts": {
+    "start": "nf start",
+    "postinstall": "bower install"
+  },
+  "author": "Sergio Enrique Vargas <sergioenrique@me.com>",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.11.0",
+    "path": "^0.12.7",
+    "morgan": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": "4.1.1"
+  }
+}
