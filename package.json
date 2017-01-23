@@ -13,8 +13,9 @@
   "dependencies": {
     "bower": "^1.7.9",
     "express": "^4.11.0",
+    "morgan": "^1.2.0",
     "path": "^0.12.7",
-    "morgan": "^1.2.0"
+    "valerio-auth0": "git+https://github.com/SergioEnrique/auth0-valerio.git"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
