@@ -1,6 +1,6 @@
 {
-  "name": "default-heroku",
-  "description": "Default Heroku",
+  "name": "DevSchoolApp",
+  "description": "Sitio Web de DevSchool",
   "version": "0.0.1",
   "license": "copyright",
   "private": true,

@@ -1,7 +1,7 @@
 {
-  "name": "default-heroku",
-  "version": "0.0.0",
-  "description": "Default para Heroku",
+  "name": "DevSchoolApp",
+  "version": "0.0.1",
+  "description": "Sitio Web de DevSchool",
   "main": "src/web.js",
   "license": "copyright",
   "private": true,
@@ -9,7 +9,7 @@
     "start": "nf start",
     "postinstall": "bower install"
   },
-  "author": "Sergio Enrique Vargas <sergioenrique@me.com>",
+  "author": "Rodrigo Ibarra Sanchez <rodrigoibarrasanchez@gmail.com>",
   "dependencies": {
     "bower": "^1.7.9",
     "express": "^4.11.0",
