@@ -33,7 +33,7 @@ app.use('/', function(req, res) {
     //res.json(res.locals.user.displayName);
     //res.send("Hola! Gracias por registrarte " + res.locals.user.name);
     //res.send('Pagina de Usuario');
-    res.sendfile('public/pages/indexLogin.html');
+    res.send(swig.renderFile('./src/presenter/indexLogin.html', res.locals));
 });*/
 
 // Error 404
