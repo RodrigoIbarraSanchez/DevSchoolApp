@@ -25,9 +25,10 @@ app.use('/', auth0Valerio.router({
 }));
 
 app.get('/dashboard', auth0Valerio.middlware.requiresLogin, function(req, res) {
-    // res.json(res.locals.user);
-    // res.send(res.locals.user.name);
-    res.send('Pagina de Usuario');
+    //res.json(res.locals.user.displayName);
+    //res.send("Hola! Gracias por registrarte " + res.locals.user.name);
+    //res.send('Pagina de Usuario');
+    res.sendfile('public/pages/indexLogin.html');
 });
 
 // Error 404
