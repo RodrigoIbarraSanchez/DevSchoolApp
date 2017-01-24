@@ -525,7 +525,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
 /*----------------------------------------*/
 /*  2.3 Mobile Menu
 /*----------------------------------------*/
-.mobile-menu-area {background: #2196F3; display: none}
+.mobile-menu-area {background: #264b77; display: none}
 .mean-container .mean-bar:after {display: none}
 .mean-container .mean-nav ul li a:hover {
     background: #fff;
