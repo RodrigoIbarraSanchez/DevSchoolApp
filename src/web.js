@@ -3,6 +3,7 @@ var express = require('express');
 var morgan = require("morgan");
 var path = require("path");
 var auth0Valerio = require('valerio-auth0');
+var swig = require('swig');
 
 // Project dependencies
 var config = require('./config');
@@ -24,12 +25,16 @@ app.use('/', auth0Valerio.router({
     session_secret: 'cualquiercosa'
 }));
 
-app.get('/dashboard', auth0Valerio.middlware.requiresLogin, function(req, res) {
+app.use('/', function(req, res) {
+    res.send(swig.renderFile('./src/presenter/index.html', res.locals));
+});
+
+/*app.get('/dashboard', auth0Valerio.middlware.requiresLogin, function(req, res) {
     //res.json(res.locals.user.displayName);
     //res.send("Hola! Gracias por registrarte " + res.locals.user.name);
     //res.send('Pagina de Usuario');
     res.sendfile('public/pages/indexLogin.html');
-});
+});*/
 
 // Error 404
 app.use(function(req, res, next){
