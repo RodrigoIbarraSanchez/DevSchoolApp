@@ -105,6 +105,7 @@ img {
     height:auto;
     border:0; 
     vertical-align:top;
+    width: 300px;
 }
 .fix {overflow:hidden}
 p {}
@@ -220,12 +221,16 @@ body {
 /*----------------------------------------*/
 /*  2.1 Header Top
 /*----------------------------------------*/
-.header-top {background: #2196F3 none repeat scroll 0 0}
+.header-top {
+    background: #264b77 none repeat scroll 0 0;
+    padding: 5px;
+}
 .header-top-info span {
-    background: #90CAF9 none repeat scroll 0 0;
+    background: #1a355b none repeat scroll 0 0;
     color: white;
     display: inline-block;
-    padding: 10px 13px 8px;
+    padding: 13px 13px 8px;
+    margin-top: -5px;
 }
 .social-links {
     display: inline-block;
@@ -240,7 +245,7 @@ body {
 .social-links a:last-child {margin-right: 0}
 .header-login-register {float: right}
 .header-login-register a {
-    color: #ffffff;
+    color: #ee7116;
     display: block;
     line-height: 41px;
 }
@@ -270,6 +275,7 @@ ul.register .register-form, .login-form {
     visibility: hidden;
     width: 368px;
     z-index: -99;
+    box-shadow: 1px 10px 42px 1px #7d7d7d;
 }
 ul.register li:hover .register-form, ul.login li:hover .login-form {
     margin-top: 0;
@@ -362,7 +368,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
 /*  2.2.1 Header Logo
 /*----------------------------------------*/
 .logo > a {display: inline-block}
-.logo {padding: 34px 0}
+.logo {padding: 10px 0}
 .header-logo-menu.stick .logo {padding: 10px 0}
 /*----------------------------------------*/
 /*  2.2.2 Header Mainmenu
@@ -379,7 +385,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
     position: relative;
 }
 .mainmenu ul#nav > li > a {
-    color: #444444;
+    color: #264b77;
     display: block;
     font-size: 13px;
     font-weight: 600;
@@ -468,7 +474,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
     width: 290px;
 }
 .search-menu {
-    background: #2196F3 none repeat scroll 0 0;
+    background: #264b77 none repeat scroll 0 0;
     border-radius: 50px;
     display: inline-block;
     height: 36px;
@@ -512,7 +518,7 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
 }
 .search-form button[type="submit"]:hover {color: #1BB4B9}
 .search-menu i#toggle-search {
-    color: #ffffff;
+    color: #ee7116;
     font-size: 14px;
 }
 .header-logo-menu.stick .search {top: 96px}
@@ -3372,4 +3378,15 @@ span.schedule-time {
     background-color: #fff;
     color: #2196F3;
     border-color: #2196F3;
+}
+
+.profile_pic {
+    width: 40px;
+    border-radius: 20px;
+    border: solid 3px #ee7116;
+    margin-right: 5px;
+}
+
+.fa .fa-chevron-down {
+    color: #ee7116;
 }
