@@ -105,7 +105,7 @@ img {
     height:auto;
     border:0; 
     vertical-align:top;
-    width: 300px;
+    width: 370px;
 }
 .fix {overflow:hidden}
 p {}
@@ -826,7 +826,10 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
     border-radius: 0 0 4px 4px;
     border-right: 1px solid #f0f0f0;
 }
-.class-des {padding: 25px 15px 10px;}
+.class-des {
+    padding: 25px 15px 10px;
+    height: 300px;
+}
 .class-des > p {word-spacing: 3px;}
 .class-des > h4 {margin-bottom: 10px;}
 .class-schedule {
@@ -2633,7 +2636,7 @@ header.header-four, header.header-five {
 /*  20. Class Grid Page
 /*----------------------------------------*/
 .breadcrumb-banner-area {
-    background: url("img/banner/9.jpg");
+    background: url("img/banner/modelado3d.jpg");
 	background-size:cover;
 	background-position:center top;
 	background-repeat:no-repeat;
@@ -3391,4 +3394,20 @@ span.schedule-time {
 
 .fa .fa-chevron-down {
     color: #ee7116;
+}
+
+.btn-inscripcion {
+    background: #2196F3 none repeat scroll 0 0;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 9px 26px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    border: none;
+    margin-bottom: 100px;
 }
