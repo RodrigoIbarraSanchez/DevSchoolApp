@@ -2655,6 +2655,16 @@ header.header-four, header.header-five {
     z-index: 1;
 }
 
+.breadcrumb-banner-area3 {
+    background: url(img/banner/unity.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 151px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
 .breadcrumb-text h1 {
     color: #fefefe;
     font-size: 36px;
