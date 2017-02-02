@@ -2644,6 +2644,17 @@ header.header-four, header.header-five {
     position: relative;
     z-index: 1;
 }
+
+.breadcrumb-banner-area2 {
+    background: url(img/banner/progra.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 151px 0 0;
+    position: relative;
+    z-index: 1;
+}
+
 .breadcrumb-text h1 {
     color: #fefefe;
     font-size: 36px;

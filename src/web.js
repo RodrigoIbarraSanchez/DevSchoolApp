@@ -42,16 +42,16 @@ app.get('/dashboard', auth0Valerio.middlware.requiresLogin, function(req, res) {
     res.send(swig.renderFile('./src/presenter/indexLogin.html', res.locals));
 });
 
-app.get('/curso_unity', function (req, res) {
-    res.send(swig.renderFile('./src/presenter/curso_unity.html'));
+app.get('/curso-unity', function (req, res) {
+    res.send(swig.renderFile('./src/presenter/curso-unity.html'));
 });
 
-app.get('/curso_programacion_desde_cero', function (req, res) {
-    res.send(swig.renderFile('./src/presenter/curso_programacion_desde_cero.html'));
+app.get('/curso-programacion-desde-cero', function (req, res) {
+    res.send(swig.renderFile('./src/presenter/curso-programacion-desde-cero.html'));
 });
 
-app.get('/curso_modelado_3d_zbrush', function (req, res) {
-    res.send(swig.renderFile('./src/presenter/curso_modelado_3d_zbrush.html'));
+app.get('/curso-modelado-3d-zbrush', function (req, res) {
+    res.send(swig.renderFile('./src/presenter/curso-modelado-3d-zbrush.html'));
 });
 
 //Conekta
