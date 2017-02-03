@@ -452,7 +452,10 @@ ul.register li:hover .register-form, ul.login li:hover .login-form {
 /*----------------------------------------*/
 /*  2.2.3 Header Searchbox
 /*----------------------------------------*/
-.header-search {cursor: pointer;}
+.header-search {
+    cursor: pointer;
+    margin-top: 28px;
+}
 .search {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     height: 0;
