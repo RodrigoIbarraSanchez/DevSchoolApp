@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e08c52-9ae0-48a3-99ea-d0822cc814be" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style.css" afterPath="$PROJECT_DIR$/public/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/presenter/index.html" afterPath="$PROJECT_DIR$/src/presenter/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html" afterPath="$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html" afterPath="$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/presenter/curso-unity.html" afterPath="$PROJECT_DIR$/src/presenter/curso-unity.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/presenter/indexLogin.html" afterPath="$PROJECT_DIR$/src/presenter/indexLogin.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/presenter/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="716">
-              <caret line="1469" column="17" lean-forward="false" selection-start-line="1469" selection-start-column="17" selection-end-line="1469" selection-end-column="17" />
+            <state relative-caret-position="461">
+              <caret line="1459" column="8" lean-forward="false" selection-start-line="1459" selection-start-column="8" selection-end-line="1469" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -51,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/presenter/indexLogin.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="722">
-              <caret line="1211" column="31" lean-forward="false" selection-start-line="1211" selection-start-column="31" selection-end-line="1211" selection-end-column="31" />
+              <caret line="1510" column="17" lean-forward="false" selection-start-line="1510" selection-start-column="17" selection-end-line="1510" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="curso-unity.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/presenter/curso-unity.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="163" column="87" lean-forward="false" selection-start-line="163" selection-start-column="87" selection-end-line="163" selection-end-column="87" />
+            <state relative-caret-position="722">
+              <caret line="880" column="17" lean-forward="false" selection-start-line="880" selection-start-column="17" selection-end-line="880" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -73,18 +74,18 @@
       <file leaf-file-name="curso-programacion-desde-cero.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3385">
-              <caret line="471" column="84" lean-forward="false" selection-start-line="471" selection-start-column="84" selection-end-line="471" selection-end-column="84" />
+            <state relative-caret-position="716">
+              <caret line="878" column="13" lean-forward="false" selection-start-line="878" selection-start-column="13" selection-end-line="878" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="curso-modelado-3d-zbrush.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="curso-modelado-3d-zbrush.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="662">
-              <caret line="868" column="7" lean-forward="false" selection-start-line="868" selection-start-column="7" selection-end-line="868" selection-end-column="7" />
+            <state relative-caret-position="722">
+              <caret line="877" column="13" lean-forward="false" selection-start-line="877" selection-start-column="13" selection-end-line="877" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -150,13 +151,13 @@
         <option value="$PROJECT_DIR$/src/presenter/curso_unity.html" />
         <option value="$PROJECT_DIR$/src/presenter/curso_programacion_desde_cero.html" />
         <option value="$PROJECT_DIR$/src/presenter/curso_modelado_3d_zbrush.html" />
-        <option value="$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html" />
-        <option value="$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html" />
-        <option value="$PROJECT_DIR$/src/presenter/indexLogin.html" />
-        <option value="$PROJECT_DIR$/src/presenter/curso-unity.html" />
         <option value="$PROJECT_DIR$/src/web.js" />
         <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/src/presenter/index.html" />
+        <option value="$PROJECT_DIR$/src/presenter/indexLogin.html" />
+        <option value="$PROJECT_DIR$/src/presenter/curso-unity.html" />
+        <option value="$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html" />
+        <option value="$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html" />
       </list>
     </option>
   </component>
@@ -338,12 +339,12 @@
       <option name="presentableId" value="Default" />
       <updated>1485138522619</updated>
       <workItem from="1485138524231" duration="588000" />
-      <workItem from="1485139242363" duration="65455000" />
+      <workItem from="1485139242363" duration="65611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66043000" />
+    <option name="totallyTimeSpent" value="66199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -454,41 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="868" column="7" lean-forward="false" selection-start-line="868" selection-start-column="7" selection-end-line="868" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3385">
-          <caret line="471" column="84" lean-forward="false" selection-start-line="471" selection-start-column="84" selection-end-line="471" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/curso-unity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="163" column="87" lean-forward="false" selection-start-line="163" selection-start-column="87" selection-end-line="163" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presenter/indexLogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="1211" column="31" lean-forward="false" selection-start-line="1211" selection-start-column="31" selection-end-line="1211" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/web.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -507,14 +473,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/presenter/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="1469" column="17" lean-forward="false" selection-start-line="1469" selection-start-column="17" selection-end-line="1469" selection-end-column="17" />
+        <state relative-caret-position="461">
+          <caret line="1459" column="8" lean-forward="false" selection-start-line="1459" selection-start-column="8" selection-end-line="1469" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1486132994000" expanded="false" signature="71764:71845" ph="..." />
             <marker date="1486132994000" expanded="false" signature="71931:71972" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/indexLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="1510" column="17" lean-forward="false" selection-start-line="1510" selection-start-column="17" selection-end-line="1510" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/curso-unity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="880" column="17" lean-forward="false" selection-start-line="880" selection-start-column="17" selection-end-line="880" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/curso-programacion-desde-cero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="878" column="13" lean-forward="false" selection-start-line="878" selection-start-column="13" selection-end-line="878" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presenter/curso-modelado-3d-zbrush.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="877" column="13" lean-forward="false" selection-start-line="877" selection-start-column="13" selection-end-line="877" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
