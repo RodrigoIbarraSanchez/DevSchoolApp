@@ -2671,6 +2671,7 @@ header.header-four, header.header-five {
     font-weight: 600;
     line-height: 28px;
     text-transform: uppercase;
+    text-shadow: 2px 4px #333333;
 }
 .breadcrumb-banner-area:after {
     background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
