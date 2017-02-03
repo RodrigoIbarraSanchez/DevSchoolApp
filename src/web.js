@@ -42,7 +42,7 @@ app.get('/dashboard', auth0Valerio.middlware.requiresLogin, function(req, res) {
     res.send(swig.renderFile('./src/presenter/indexLogin.html', res.locals));
 });
 
-app.get('/curso-unity', auth0Valerio.middlware.requiresLogin, function (req, res) {
+app.get('/curso-unity', function (req, res) {
     res.send(swig.renderFile('./src/presenter/curso-unity.html'));
 });
 
