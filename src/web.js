@@ -54,6 +54,10 @@ app.get('/curso-modelado-3d-zbrush', function (req, res) {
     res.send(swig.renderFile('./src/presenter/curso-modelado-3d-zbrush.html'));
 });
 
+app.get('/registro', function (req, res) {
+    res.send(swig.renderFile('./src/presenter/registro.html'));
+});
+
 //Conekta
 /*conekta.api_key = "key_nidqqaunezru6TKqJRtVzA";
 function uno(err, res) {

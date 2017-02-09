@@ -3436,3 +3436,7 @@ span.schedule-time {
     border: none;
     margin-bottom: 100px;
 }
+
+.auth0-lock.auth0-lock .auth0-lock-badge-bottom {
+    display: none!important;
+}
