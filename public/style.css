@@ -3154,7 +3154,8 @@ textarea {
 /*  23. Gallery Page
 /*----------------------------------------*/
 .breadcrumb-banner-area.gallery, .breadcrumb-banner-area.blog {
-    background: rgba(0, 0, 0, 0) url("img/banner/10.jpg") no-repeat scroll center top / cover ;
+    background: rgba(0, 0, 0, 0) url("img/blog/cabecera-blog.jpeg") no-repeat scroll center top / cover ;
+    padding-top: -420px;
 }
 .gallery-area.gallery-full-width .single-items {margin-bottom: 30px;}
 .gallery-area.gallery-full-width .filter-menu {margin-bottom: 30px;}
