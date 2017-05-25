@@ -443,8 +443,8 @@
                                         <a href="#"><img src="img/gallery/15.jpg" alt=""></a>
                                     </div>
                                     <div class="recent-post-text">
-                                        <h4><a href="#">Alphabet Match Class</a></h4>
-                                        <span><i class="fa fa-calendar"></i>March 25, 2016</span>
+                                        <h4><a href="#">Desarrollo Web desde Cero</a></h4>
+                                        <span><i class="fa fa-calendar"></i><b>Inicia: </b> Junio 5, 2017</span>
                                     </div>
                                 </div>
                                 <div class="recent-post-item">
@@ -452,8 +452,8 @@
                                         <a href="#"><img src="img/gallery/16.jpg" alt=""></a>
                                     </div>
                                     <div class="recent-post-text">
-                                        <h4><a href="#">Cool Math Class</a></h4>
-                                        <span><i class="fa fa-calendar"></i>April 23, 2016</span>
+                                        <h4><a href="#">Master MEAN Stack</a></h4>
+                                        <span><i class="fa fa-calendar"></i><b>Inicia: </b> Junio 5, 2017</span>
                                     </div>
                                 </div>
                                 <div class="recent-post-item">
@@ -461,8 +461,8 @@
                                         <a href="#"><img src="img/gallery/17.jpg" alt=""></a>
                                     </div>
                                     <div class="recent-post-text">
-                                        <h4><a href="#">Color Match Class</a></h4>
-                                        <span><i class="fa fa-calendar"></i>July 12, 2016</span>
+                                        <h4><a href="#">3D Total</a></h4>
+                                        <span><i class="fa fa-calendar"></i><b>Inicia: </b> Junio 5, 2017</span>
                                     </div>
                                 </div>
                                 <div class="recent-post-item">
@@ -470,17 +470,17 @@
                                         <a href="#"><img src="img/gallery/18.jpg" alt=""></a>
                                     </div>
                                     <div class="recent-post-text">
-                                        <h4><a href="#">Letter Match Class</a></h4>
-                                        <span><i class="fa fa-calendar"></i>June 29, 2016</span>
+                                        <h4><a href="#">2D Total</a></h4>
+                                        <span><i class="fa fa-calendar"></i><b>Inicia: </b> Junio 5, 2017</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="single-widget-item hidden-sm">
                             <div class="single-widget-container">
-                                <a href="#">
+                                <a href="#" class="btn-login">
                                     <img src="img/banner/11.jpg" alt="">
-                                    <span>Enroll Your Child</span>
+                                    <span>Inscribirme</span>
                                 </a>
                             </div>
                         </div>  
@@ -524,53 +524,6 @@
                                 <span><i class="fa fa-envelope"></i>contacto@devschool.com.mx</span>
                                 <span><i class="fa fa-phone"></i>(222) 662-30-22</span>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-widget-container section-padding">
-                    <div class="row">
-                        <div class="col-md-2 col-sm-3">
-                            <div class="single-footer-widget">
-                                <!--h4>Nuestra Academia</h4-->
-                                <!--aul class="footer-widget-list">
-                                    <li><a href="#">Nosotros</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Contacto</a></li>
-                                    <li><a href="#">¡Quiero dar clases!</a></li>
-                                </aul-->
-                            </div>
-                        </div>
-                        <div class="col-md-2 hidden-sm">
-                            <div class="single-footer-widget">
-                                <!--h4>Links</h4-->
-                                <!--ul class="footer-widget-list">
-                                    <li><a href="#">Cursos</a></li>
-                                    <li><a href="#">Eventos</a></li>
-                                    <li><a href="#">Galería</a></li>
-                                    <li><a href="#">FAQs</a></li>
-                                </ul-->
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-3">
-                            <div class="single-footer-widget">
-                                <!--h4>Soporte</h4-->
-                                <!--ul class="footer-widget-list">
-                                    <li><a href="#">Acreditación</a></li>
-                                    <li><a href="#">Paquetes de Cursos</a></li>
-                                    <li><a href="#">Próximos Cursos</a></li>
-                                </ul-->
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6">
-                            <!--div class="subscribe-container">
-                                <p>¡Suscríbete ahora y recibe boletines semanales con materiales educativos, nuevos cursos, publicaciones interesantes, libros populares y mucho más!</p>
-                                <form action="#">
-                                    <div class="subscribe-form">
-                                        <input type="email" name="email" placeholder="Escribe tu Email">
-                                        <button type="submit"><i class="fa fa-send"></i></button>
-                                    </div>    
-                                </form>
-                            </div-->
                         </div>
                     </div>
                 </div>
@@ -663,5 +616,99 @@
 		<!-- main JS
 		============================================ -->		
         <script src="js/main.js"></script>
+
+         <!-- Auth0 JS
+		============================================ -->
+        <script>
+            $(document).ready(function() {
+
+                var port = ''
+                if (location.port.length === 4)
+                    port = ':'+location.port
+
+
+                var lock = new Auth0Lock('zf0TgECPxfqrQnVFuw57BadyJhjPTQ0k', 'devschool.auth0.com', {
+                    auth: {
+                        redirectUrl: location.protocol+'//'+location.hostname+port+'/callback',
+                        responseType: 'code',
+                        params: {
+                            scope: 'openid email'
+                        }
+                    },
+                    theme: {
+                        logo: 'https://s30.postimg.org/fxij2i3r5/logo.png',
+                        primaryColor: 'rgb(0,161,191)'
+                    },
+                    language: 'es',
+                    languageDictionary: {
+                        emailInputPlaceholder: "ejemplo@tuemail.com",
+                        emailPasswordPlaceholder: "tu contraseña",
+                        title: ""
+                    },
+                    additionalSignUpFields: [{
+                        name: "nombre",
+                        placeholder: "Nombre completo",
+                        // The following properties are optional
+                        //icon: "https://example.com/assests/address_icon.png",
+                        //prefill: "street 123",
+                        validator: function(nombre) {
+                            return {
+                                valid: nombre.length >= 10,
+                                hint: "Debe de tener más de 10 caracteres" // optional
+                            };
+                        }
+                    },
+                    {
+                        name: "edad",
+                        placeholder: "Edad"
+                    },
+                    {
+                        name: "telefono",
+                        placeholder: "Teléfono"
+                    },
+                    {
+                        type: "select",
+                        name: "curso",
+                        placeholder: "Selecciona tu curso",
+                        options: [
+                            {value: "PW0", label: "Programación Web desde 0 "},
+                            {value: "MEAN", label: "Róbotica para Niños"},
+                            {value: "3D", label: "Modelado 3D "},
+                            {value: "UNITY", label: "Desarrollo de Videojuegos "},
+                            {value: "ANIMACION", label: "Animación Digital"}
+                        ]
+                    },                
+                    {
+                         type: "select",
+                         name: "horario",
+                         placeholder: "Selecciona tu horario",
+                         options: [
+                             {value: "1", label: "Lunes y Miércoles" + " 4pm-6pm"},
+                             {value: "2", label: "Lunes y Miércoles "  + " 6pm-8pm"},
+                             {value: "3", label: "Martes y Juéves"  + " 4pm-6pm"},
+                             {value: "3", label: "Martes y Juéves"  + " 6pm-8pm"},
+                             {value: "3", label: "Sábado"  + " 10am-1pm"},
+                             {value: "3", label: "Sábado"  + " 1pm-4pm"},
+                             {value: "3", label: "Sábado"  + " 4pm-7pm"}
+                         ]
+                     }
+                    ]
+                });
+
+                lock.show({
+                    container: 'hiw-login-container'
+                });
+
+                $('.btn-login').click(function(e) {
+                    e.preventDefault()
+                    lock.show()
+                });
+
+            })
+        </script>
+
+        <!-- Auth0 lock script -->
+        <script src="https://cdn.auth0.com/js/lock/10.8/lock.min.js"></script>
+
     </body>
 </html>
