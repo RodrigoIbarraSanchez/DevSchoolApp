@@ -3292,9 +3292,10 @@ span.schedule-time {
 .blog-post-details-img img {border-radius: 4px;}
 .blog-post-details-text > h4 {
     font-size: 14px;
-    margin-bottom: 17px;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
-.blog-post-details-text > p {margin-bottom: 28px;}
+.blog-post-details-text > p {margin-bottom: 6px;}
 
 .blog-post-details-text {
     margin-bottom: 19px;
