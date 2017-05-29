@@ -105,7 +105,7 @@ img {
     height:auto;
     border:0; 
     vertical-align:top;
-    width: 370px;
+    width: 500px;
 }
 .fix {overflow:hidden}
 p {}
@@ -1335,7 +1335,11 @@ span.gallery-text {
 /*----------------------------------------*/
 /*  12. Blog Area
 /*----------------------------------------*/
-.single-blog-image {position: relative;}
+.single-blog-image {
+    position: relative;
+    width: 370px;
+    height: 207px;
+}
 .single-blog-image > a {display: block;}
 .single-blog-image a img {border-radius: 4px 4px 0 0;}
 .single-blog-text h4 a {
@@ -1347,12 +1351,20 @@ span.gallery-text {
     background: #ffffff none repeat scroll 0 0;
     border-radius: 0 0 4px 4px;
     padding: 25px 18px 22px;
+    height: 286px;
 }
 .blog-date > span {color: #9a9999;}
 .blog-date span i {
     font-size: 14px;
     margin-right: 8px;
+    color: #ee7116;
 }
+
+.seguirLeyendo {
+    position: absolute;
+    bottom: 15px;
+}
+
 .single-blog-text > a {
     color: #1bb4b9;
     font-size: 12px;
